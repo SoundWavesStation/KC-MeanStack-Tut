@@ -5,7 +5,7 @@ import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import {PostCreateComponent} from './posts/post-create/post-create.component';
-import {MatInputModule} from '@angular/material';
+import {MatInputModule, MatCardModule, MatButtonModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,9 @@ import {MatInputModule} from '@angular/material';
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
